@@ -1,0 +1,72 @@
+body,
+html{
+	width: 100%;
+	height: 100%;
+	Fontfamily:'Montserrat', Sans-serif;
+background: url(file:///C:/Users/Gabriela/Desktop/Bucovina%20Panel/poster/Bucovina_Panel_panouri-sandwich_6.jpg) no-repeat center center fixed;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size: cover;
+}
+h1{
+	font-size: 3rem;
+	color: rgba(0, 0, 170, 0.8);
+	text-align: center;
+}
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  form {
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+    border-radius: 500px;
+    background-color: transparent;
+    color:rgba(0, 0, 170, 0.8);
+  }
+
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid rgba(0, 0, 176, 0,2);
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: left;
+    border-radius: 500px;
+
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  input[type="submit"],
+  input[type="reset"] {
+    width: 48%;
+    padding: 10px;
+    background-color: rgba(0, 0, 176, 0.5);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #4b9fd5;
+    border-width: 4px;
+</style>
